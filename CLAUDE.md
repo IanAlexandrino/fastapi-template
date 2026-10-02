@@ -333,6 +333,8 @@ profunda quando composição bastaria, e "manager" que faz de tudo (God object).
   `perf:`, `chore:`. Mensagem no imperativo, explica o _porquê_.
 - **Commits pequenos e atômicos**; um assunto por commit.
 - **Nada de segredo, arquivo gerado ou `.env` no histórico.**
+- **Sem atribuição a IA:** nunca inclua `Co-Authored-By` de assistente nem
+  "Generated with ..." em mensagens de commit ou descrições de PR.
 - Rode a suíte de qualidade (seção 3) antes de commitar.
 - `<sua política de branch/PR aqui>`
 
